@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/currentIncidentsTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_l"
+            android:text="@string/current_incidents"
+            android:textSize="@dimen/text_2xl"
+            android:textStyle="bold" />
+
+        <SearchView
+            android:id="@+id/searchCurrentIncidentsBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/padding_l"
+            android:layout_marginRight="@dimen/padding_l"
+            android:layout_marginBottom="@dimen/padding_l"
+            android:background="@color/near_white_blue"
+            android:queryHint="@string/search" />
+
+        <android.widget.ListView
+            android:id="@+id/roadworksList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/padding_xl"
+            android:paddingRight="@dimen/padding_xl"
+            android:paddingBottom="@dimen/padding_xl" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->

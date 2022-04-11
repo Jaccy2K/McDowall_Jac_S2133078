@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_s">8dp</dimen>
+    <dimen name="padding_m">12dp</dimen>
+    <dimen name="padding_l">16dp</dimen>
+    <dimen name="padding_xl">24dp</dimen>
+    <dimen name="padding_2xl">32dp</dimen>
+
+    <dimen name="text_s">4sp</dimen>
+    <dimen name="text_m">8sp</dimen>
+    <dimen name="text_l">12sp</dimen>
+    <dimen name="text_xl">16sp</dimen>
+    <dimen name="text_2xl">24sp</dimen>
+</resources>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->

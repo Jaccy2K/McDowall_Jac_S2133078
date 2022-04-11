@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/detailTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="@dimen/text_xl"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailTitleInformationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fetch_error" />
+
+        <TextView
+            android:id="@+id/detailDescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_l"
+            android:text="@string/description"
+            android:textSize="@dimen/text_xl"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailDescriptionInformationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fetch_error" />
+
+        <TextView
+            android:id="@+id/detailGeoLocationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_l"
+            android:text="@string/geolocation"
+            android:textSize="@dimen/text_xl"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/detailGeoLocationInformationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fetch_error"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->

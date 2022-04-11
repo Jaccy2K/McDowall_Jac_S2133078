@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/filter_by">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/currentIncidentsNavItem"
+                    android:title="@string/current_incidents"
+                    android:icon="@drawable/ic_current_incidents_icon"/>
+                <item
+                    android:id="@+id/roadworksNavItem"
+                    android:title="@string/roadworks"
+                    android:icon="@drawable/ic_roadworks_icon"/>
+                <item
+                    android:id="@+id/plannedRoadworksNavItem"
+                    android:title="@string/planned_roadworks"
+                    android:icon="@drawable/ic_roadworks_icon"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->

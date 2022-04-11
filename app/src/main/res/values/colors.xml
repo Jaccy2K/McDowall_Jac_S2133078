@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF6B6B</color>
+    <color name="yellow">#FFD93D</color>
+    <color name="green">#66CB77</color>
+
+    <color name="percent_100_blue">#4D96FF</color>
+    <color name="percent_80_blue">#5E9AED</color>
+    <color name="percent_60_blue">#709DDB</color>
+    <color name="percent_40_blue">#82A0C9</color>
+    <color name="percent_20_blue">#82A0C9</color>
+
+    <color name="near_white_blue">#F5F9FF</color>
+    <color name="far_white_blue">#99C3FF</color>
+    <color name="near_black_blue">#000814</color>
+</resources>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->

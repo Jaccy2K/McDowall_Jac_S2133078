@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Traffic Scotland</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="filter_by">Filter By...</string>
+    <string name="current_incidents">Current Incidents</string>
+    <string name="roadworks">Roadworks</string>
+    <string name="planned_roadworks">Planned Roadworks</string>
+
+    <string name="search_by">Search By...</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+
+    <string name="search">Search...</string>
+
+    <string name="welcome">Welcome to the Traffic Scotland Update Mobile Application for Android!\n\nPlease use the navigation menu to proceed to the desired section!</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="geolocation">Geolocation</string>
+
+    <string name="fetch_error">Error in trying to fetch data.</string>
+</resources>
+
+    <!--
+    // Jac Stephen McDowall
+    // S2133078
+    // Glasgow Caledonian University
+    -->
